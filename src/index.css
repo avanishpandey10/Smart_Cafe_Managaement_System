@@ -1,9 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body{
-  font-family: 'Inter',sans-serif;
+:root {
+  --bg-base:        #F2F0E8;
+  --bg-card:        #FAFAF5;
+  --bg-sidebar:     #EDEBE0;
+  --accent:         #C8A96E;
+  --accent-hover:   #B8945A;
+  --accent-muted:   #E8E0C8;
+  --text-primary:   #2A2820;
+  --text-secondary: #6B6858;
+  --text-light:     #F5F3EC;
+  --border:         #DDD9C8;
+  --danger:         #C0644A;
+  --success:        #5A8A6A;
+  --info:           #5A7A8A;
+  --shadow-sm: 0 1px 3px rgba(42,40,32,0.08);
+  --shadow-md: 0 4px 16px rgba(42,40,32,0.10);
+  --shadow-lg: 0 8px 32px rgba(42,40,32,0.13);
 }
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-base);
+  color: var(--text-primary);
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'DM Serif Display', Georgia, serif;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-base); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
