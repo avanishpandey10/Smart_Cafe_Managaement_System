@@ -96,7 +96,7 @@ const Auth = () => {
                         display: 'flex', alignItems: 'center', justifyContent: 'center',
                         fontSize: '1.4rem', margin: '0 auto 1rem',
                         boxShadow: '0 4px 12px #C8A96E44',
-                    }}>☕</div>
+                    }}>🍵</div>
                     <h1 style={{ fontSize: '1.8rem', marginBottom: '0.25rem' }}>
                         {isLogin ? 'Welcome back' : 'Join Smart Café'}
                     </h1>

@@ -6,12 +6,14 @@ import Header from './components/shared/Headers'
 import UserDashboard from './pages/User/UserDashboard'
 import AdminDashboard from './pages/Admin/AdminDashboard'
 import KitchenDashboard from './pages/Kitchen/KitchenDashboard'
+import CustomCursor from './components/shared/CustomCursor'
 
 function App() {
   const { user } = useSelector((state) => state.auth)
 
   return (
     <>
+    <CustomCursor />
       <Router>
         <Toaster position="top-right" />
         {user && <Header />}
