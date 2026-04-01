@@ -14,7 +14,7 @@ function App() {
   const { user } = useSelector((state) => state.auth)
   const [showSplash, setShowSplash] = useState(true)
   return (
-    <>
+    <div>
       <CustomCursor />
       {showSplash && (
                 <SplashScreen onComplete={() => setShowSplash(false)} />
@@ -36,7 +36,7 @@ function App() {
           <Route path="/orders" element={<Orders />} />
         </Routes>
       </Router>
-    </>
+    </div>
   )
 }
 
