@@ -1,0 +1,119 @@
+{
+  "nav": {
+    "login": "உள்நுழை",
+    "logout": "வெளியேறு",
+    "dashboard": "டாஷ்போர்டு",
+    "menu": "உணவு பட்டியல்",
+    "orders": "ஆர்டர்கள்",
+    "tables": "மேசைகள்",
+    "kitchen": "சமையலறை",
+    "inventory": "சரக்கு",
+    "reservations": "முன்பதிவுகள்",
+    "coupons": "கூப்பன்கள்",
+    "staff": "ஊழியர்கள்",
+    "feedback": "கருத்து",
+    "exports": "ஏற்றுமதி"
+  },
+  "common": {
+    "name": "பெயர்",
+    "email": "மின்னஞ்சல்",
+    "phone": "தொலைபேசி",
+    "role": "பங்கு",
+    "save": "சேமி",
+    "cancel": "ரத்துசெய்",
+    "edit": "திருத்து",
+    "delete": "நீக்கு",
+    "actions": "செயல்கள்",
+    "loading": "ஏற்றுகிறது...",
+    "noData": "தரவு இல்லை",
+    "search": "தேடு",
+    "filter": "வடிகட்டு",
+    "status": "நிலை",
+    "submit": "சமர்ப்பி"
+  },
+  "menu": {
+    "addItem": "உணவு சேர்",
+    "editItem": "உணவு திருத்து",
+    "description": "விவரம்",
+    "price": "விலை",
+    "category": "வகை",
+    "available": "கிடைக்கும்",
+    "unavailable": "கிடைக்காது"
+  },
+  "order": {
+    "placeOrder": "ஆர்டர் செய்",
+    "myOrders": "என் ஆர்டர்கள்",
+    "cancelOrder": "ஆர்டர் ரத்துசெய்",
+    "cancelConfirm": "இந்த ஆர்டரை ரத்து செய்ய விரும்புகிறீர்களா?",
+    "payNow": "இப்போது செலுத்து",
+    "downloadInvoice": "பில் பதிவிறக்கு",
+    "leaveFeedback": "கருத்து தெரிவி",
+    "applyCoupon": "கூப்பன் பயன்படுத்து",
+    "specialInstructions": "சிறப்பு வழிமுறைகள்",
+    "subtotal": "உப மொத்தம்",
+    "discount": "தள்ளுபடி",
+    "grandTotal": "மொத்த தொகை"
+  },
+  "table": {
+    "tableNumber": "மேசை எண்",
+    "capacity": "கொள்ளளவு",
+    "qrCode": "QR குறியீடு",
+    "scanToOrder": "ஆர்டர் செய்ய ஸ்கேன் செய்யுங்கள்"
+  },
+  "analytics": {
+    "totalRevenue": "மொத்த வருவாய்",
+    "todayRevenue": "இன்றைய வருவாய்",
+    "totalOrders": "மொத்த ஆர்டர்கள்",
+    "todayOrders": "இன்றைய ஆர்டர்கள்",
+    "totalCustomers": "மொத்த வாடிக்கையாளர்கள்",
+    "salesChart": "விற்பனை போக்கு",
+    "popularItems": "பிரபலமான உணவுகள்",
+    "revenueByCategory": "வகை வாரியான வருவாய்",
+    "week": "வாரம்",
+    "month": "மாதம்",
+    "year": "ஆண்டு"
+  },
+  "coupon": {
+    "code": "கூப்பன் குறியீடு",
+    "discountType": "தள்ளுபடி வகை",
+    "discountValue": "தள்ளுபடி மதிப்பு",
+    "percentage": "சதவீதம்",
+    "fixed": "நிலையான தொகை",
+    "minOrder": "குறைந்தபட்ச ஆர்டர்",
+    "maxDiscount": "அதிகபட்ச தள்ளுபடி",
+    "validFrom": "தொடக்க நாள்",
+    "validUntil": "முடிவு நாள்",
+    "usageLimit": "பயன்பாட்டு வரம்பு",
+    "apply": "பயன்படுத்து",
+    "applied": "கூப்பன் பயன்படுத்தப்பட்டது!"
+  },
+  "inventory": {
+    "currentStock": "தற்போதைய இருப்பு",
+    "minimumStock": "குறைந்தபட்ச இருப்பு",
+    "unit": "அலகு",
+    "supplier": "சப்ளையர்",
+    "restock": "மீள் சேமிப்பு",
+    "lowStock": "குறைந்த இருப்பு"
+  },
+  "reservation": {
+    "makeReservation": "முன்பதிவு செய்",
+    "date": "தேதி",
+    "timeSlot": "நேர இடைவெளி",
+    "partySize": "நபர்கள் எண்ணிக்கை",
+    "specialRequests": "சிறப்பு கோரிக்கைகள்"
+  },
+  "staff": {
+    "addStaff": "ஊழியர் சேர்",
+    "salary": "சம்பளம்",
+    "clockIn": "வருகை பதிவு",
+    "clockOut": "புறப்பாடு பதிவு",
+    "shifts": "பணி நேரங்கள்"
+  },
+  "feedback": {
+    "rateOrder": "உங்கள் ஆர்டரை மதிப்பிடுங்கள்",
+    "rateItem": "உணவுகளை மதிப்பிடுங்கள்",
+    "comment": "உங்கள் கருத்தை எழுதுங்கள்...",
+    "submit": "கருத்து சமர்ப்பி",
+    "allFeedback": "அனைத்து கருத்துகள்"
+  }
+}

@@ -1,0 +1,221 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ═══════════════════════════════════════════════════════════
+   CUSTOM CURSOR — Zoom effect inspired by design.google
+   ═══════════════════════════════════════════════════════════ */
+*,
+*::before,
+*::after {
+  cursor: none !important;
+}
+
+#custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  background: rgba(116, 198, 157, 0.8);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 99999;
+  transform: translate(-50%, -50%);
+  transition: width 0.25s cubic-bezier(0.23, 1, 0.32, 1),
+              height 0.25s cubic-bezier(0.23, 1, 0.32, 1),
+              background 0.25s ease,
+              opacity 0.25s ease;
+  mix-blend-mode: difference;
+}
+
+#custom-cursor.cursor-hover {
+  width: 48px;
+  height: 48px;
+  background: rgba(149, 213, 178, 0.6);
+}
+
+#custom-cursor.cursor-click {
+  width: 12px;
+  height: 12px;
+  background: rgba(183, 228, 199, 1);
+}
+
+#custom-cursor-ring {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border: 1.5px solid rgba(116, 198, 157, 0.35);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 99998;
+  transform: translate(-50%, -50%);
+  transition: width 0.4s cubic-bezier(0.23, 1, 0.32, 1),
+              height 0.4s cubic-bezier(0.23, 1, 0.32, 1),
+              border-color 0.3s ease,
+              opacity 0.3s ease;
+}
+
+#custom-cursor-ring.cursor-hover {
+  width: 64px;
+  height: 64px;
+  border-color: rgba(149, 213, 178, 0.3);
+}
+
+/* ═══════════════════════════════════════════════════════════
+   BASE LAYER
+   ═══════════════════════════════════════════════════════════ */
+@layer base {
+  body {
+    @apply font-body bg-dark-700 text-cafe-600;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3 {
+    @apply font-display text-cafe-900;
+  }
+
+  ::selection {
+    background: rgba(192, 154, 108, 0.25);
+    color: #f5f0ea;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════
+   COMPONENT LAYER
+   ═══════════════════════════════════════════════════════════ */
+@layer components {
+  .btn-primary {
+    @apply bg-forest-500 hover:bg-forest-600 text-white font-body font-medium px-4 py-2 rounded-lg transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-secondary {
+    @apply bg-cafe-100 hover:bg-cafe-200 text-cafe-800 font-body font-medium px-4 py-2 rounded-lg transition-all duration-200;
+  }
+  .btn-danger {
+    @apply bg-red-600 hover:bg-red-700 text-white font-body font-medium px-4 py-2 rounded-lg transition-all duration-200;
+  }
+  .btn-sm {
+    @apply px-3 py-1.5 text-sm;
+  }
+
+  .card {
+    @apply bg-dark-300 rounded-xl shadow-sm border border-cafe-100 p-6;
+  }
+
+  .input {
+    @apply w-full border border-cafe-200 bg-dark-400 rounded-lg px-3 py-2 text-cafe-800 font-body focus:outline-none focus:ring-2 focus:ring-forest-500 focus:border-transparent transition-all;
+  }
+
+  .label {
+    @apply block text-sm font-medium text-cafe-600 mb-1;
+  }
+
+  .badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+  .badge-pending {
+    @apply bg-yellow-900/40 text-yellow-400;
+  }
+  .badge-approved {
+    @apply bg-blue-900/40 text-blue-400;
+  }
+  .badge-preparing {
+    @apply bg-orange-900/40 text-orange-400;
+  }
+  .badge-ready {
+    @apply bg-purple-900/40 text-purple-400;
+  }
+  .badge-completed {
+    @apply bg-green-900/40 text-green-400;
+  }
+  .badge-cancelled {
+    @apply bg-red-900/40 text-red-400;
+  }
+  .badge-paid {
+    @apply bg-green-900/40 text-green-400;
+  }
+  .badge-unpaid {
+    @apply bg-neutral-800 text-neutral-400;
+  }
+
+  .table-auto th {
+    @apply text-left text-xs font-semibold text-cafe-500 uppercase tracking-wider px-4 py-3;
+  }
+  .table-auto td {
+    @apply px-4 py-3 text-sm text-cafe-600;
+  }
+  .table-auto tr {
+    @apply border-b border-cafe-100 transition-colors;
+  }
+  .table-auto tbody tr:hover {
+    background-color: rgba(22, 22, 22, 0.5);
+  }
+
+  .sidebar-link {
+    @apply flex items-center gap-3 px-4 py-2.5 rounded-lg text-cafe-500 transition-all font-body text-sm font-medium;
+  }
+  .sidebar-link:hover {
+    @apply bg-cafe-100 text-cafe-800;
+  }
+  .sidebar-link.active {
+    @apply bg-forest-500 text-white;
+  }
+  .sidebar-link.active:hover {
+    @apply bg-forest-600;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SCROLLBAR
+   ═══════════════════════════════════════════════════════════ */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #0a0a0a; }
+::-webkit-scrollbar-thumb { background: #3d3832; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #5a5249; }
+
+/* ═══════════════════════════════════════════════════════════
+   TOAST — Dark overrides
+   ═══════════════════════════════════════════════════════════ */
+.Toastify__toast {
+  font-family: 'DM Sans', sans-serif !important;
+  background: #1a1a1a !important;
+  color: #d4c8b8 !important;
+  border: 1px solid #2a2724 !important;
+}
+.Toastify__close-button {
+  color: #8a7e72 !important;
+}
+.Toastify__progress-bar {
+  background: #40916c !important;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SUBTLE GRAIN OVERLAY
+   ═══════════════════════════════════════════════════════════ */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 99990;
+  opacity: 0.025;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+}
+
+/* ═══════════════════════════════════════════════════════════
+   INPUT PLACEHOLDER COLOR
+   ═══════════════════════════════════════════════════════════ */
+.input::placeholder {
+  color: #8a7e72;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SELECT OPTION STYLING (dark bg for dropdowns)
+   ═══════════════════════════════════════════════════════════ */
+select option {
+  background: #1a1a1a;
+  color: #e8ddd0;
+}

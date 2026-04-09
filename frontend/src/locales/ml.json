@@ -1,0 +1,119 @@
+{
+  "nav": {
+    "login": "ലോഗിൻ",
+    "logout": "ലോഗൗട്ട്",
+    "dashboard": "ഡാഷ്‌ബോർഡ്",
+    "menu": "മെനു",
+    "orders": "ഓർഡറുകൾ",
+    "tables": "മേശകൾ",
+    "kitchen": "അടുക്കള",
+    "inventory": "ഇൻവെന്ററി",
+    "reservations": "റിസർവേഷനുകൾ",
+    "coupons": "കൂപ്പണുകൾ",
+    "staff": "ജീവനക്കാർ",
+    "feedback": "ഫീഡ്‌ബാക്ക്",
+    "exports": "എക്‌സ്‌പോർട്ട്"
+  },
+  "common": {
+    "name": "പേര്",
+    "email": "ഇമെയിൽ",
+    "phone": "ഫോൺ",
+    "role": "റോൾ",
+    "save": "സേവ് ചെയ്യൂ",
+    "cancel": "റദ്ദാക്കൂ",
+    "edit": "എഡിറ്റ്",
+    "delete": "ഡിലീറ്റ്",
+    "actions": "പ്രവർത്തനങ്ങൾ",
+    "loading": "ലോഡ് ചെയ്യുന്നു...",
+    "noData": "ഡാറ്റ ഇല്ല",
+    "search": "തിരയുക",
+    "filter": "ഫിൽട്ടർ",
+    "status": "സ്ഥിതി",
+    "submit": "സമർപ്പിക്കൂ"
+  },
+  "menu": {
+    "addItem": "ഐറ്റം ചേർക്കൂ",
+    "editItem": "ഐറ്റം എഡിറ്റ്",
+    "description": "വിവരണം",
+    "price": "വില",
+    "category": "വിഭാഗം",
+    "available": "ലഭ്യം",
+    "unavailable": "ലഭ്യമല്ല"
+  },
+  "order": {
+    "placeOrder": "ഓർഡർ ചെയ്യൂ",
+    "myOrders": "എന്റെ ഓർഡറുകൾ",
+    "cancelOrder": "ഓർഡർ റദ്ദാക്കൂ",
+    "cancelConfirm": "ഈ ഓർഡർ റദ്ദാക്കണമെന്ന് ഉറപ്പാണോ?",
+    "payNow": "ഇപ്പോൾ പേയ്‌മെന്റ്",
+    "downloadInvoice": "ബിൽ ഡൗൺലോഡ്",
+    "leaveFeedback": "ഫീഡ്‌ബാക്ക് നൽകൂ",
+    "applyCoupon": "കൂപ്പൺ ചേർക്കൂ",
+    "specialInstructions": "പ്രത്യേക നിർദ്ദേശങ്ങൾ",
+    "subtotal": "ഉപ-ആകെ",
+    "discount": "കിഴിവ്",
+    "grandTotal": "ആകെ തുക"
+  },
+  "table": {
+    "tableNumber": "മേശ നമ്പർ",
+    "capacity": "ശേഷി",
+    "qrCode": "QR കോഡ്",
+    "scanToOrder": "ഓർഡർ ചെയ്യാൻ സ്‌കാൻ ചെയ്യൂ"
+  },
+  "analytics": {
+    "totalRevenue": "ആകെ വരുമാനം",
+    "todayRevenue": "ഇന്നത്തെ വരുമാനം",
+    "totalOrders": "ആകെ ഓർഡറുകൾ",
+    "todayOrders": "ഇന്നത്തെ ഓർഡറുകൾ",
+    "totalCustomers": "ആകെ ഉപഭോക്താക്കൾ",
+    "salesChart": "വിൽപ്പന ട്രെൻഡ്",
+    "popularItems": "ജനപ്രിയ ഐറ്റങ്ങൾ",
+    "revenueByCategory": "വിഭാഗം അനുസരിച്ച് വരുമാനം",
+    "week": "ആഴ്ച",
+    "month": "മാസം",
+    "year": "വർഷം"
+  },
+  "coupon": {
+    "code": "കൂപ്പൺ കോഡ്",
+    "discountType": "കിഴിവ് തരം",
+    "discountValue": "കിഴിവ് മൂല്യം",
+    "percentage": "ശതമാനം",
+    "fixed": "നിശ്ചിത തുക",
+    "minOrder": "കുറഞ്ഞ ഓർഡർ",
+    "maxDiscount": "പരമാവധി കിഴിവ്",
+    "validFrom": "ആരംഭ തീയതി",
+    "validUntil": "അവസാന തീയതി",
+    "usageLimit": "ഉപയോഗ പരിധി",
+    "apply": "ചേർക്കൂ",
+    "applied": "കൂപ്പൺ ചേർത്തു!"
+  },
+  "inventory": {
+    "currentStock": "നിലവിലെ സ്റ്റോക്ക്",
+    "minimumStock": "കുറഞ്ഞ സ്റ്റോക്ക്",
+    "unit": "യൂണിറ്റ്",
+    "supplier": "വിതരണക്കാരൻ",
+    "restock": "പുനഃസ്റ്റോക്ക്",
+    "lowStock": "കുറഞ്ഞ സ്റ്റോക്ക്"
+  },
+  "reservation": {
+    "makeReservation": "റിസർവേഷൻ ചെയ്യൂ",
+    "date": "തീയതി",
+    "timeSlot": "സമയ സ്ലോട്ട്",
+    "partySize": "ആളുകളുടെ എണ്ണം",
+    "specialRequests": "പ്രത്യേക അഭ്യർത്ഥനകൾ"
+  },
+  "staff": {
+    "addStaff": "ജീവനക്കാരനെ ചേർക്കൂ",
+    "salary": "ശമ്പളം",
+    "clockIn": "ഹാജർ",
+    "clockOut": "പുറത്ത്",
+    "shifts": "ഷിഫ്റ്റുകൾ"
+  },
+  "feedback": {
+    "rateOrder": "നിങ്ങളുടെ ഓർഡർ റേറ്റ് ചെയ്യൂ",
+    "rateItem": "ഐറ്റങ്ങൾ റേറ്റ് ചെയ്യൂ",
+    "comment": "നിങ്ങളുടെ ഫീഡ്‌ബാക്ക് എഴുതൂ...",
+    "submit": "ഫീഡ്‌ബാക്ക് സമർപ്പിക്കൂ",
+    "allFeedback": "എല്ലാ ഫീഡ്‌ബാക്കുകളും"
+  }
+}

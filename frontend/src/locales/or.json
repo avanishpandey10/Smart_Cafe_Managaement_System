@@ -1,0 +1,119 @@
+{
+  "nav": {
+    "login": "ଲଗଇନ୍",
+    "logout": "ଲଗଆଉଟ୍",
+    "dashboard": "ଡ୍ୟାସବୋର୍ଡ",
+    "menu": "ମେନୁ",
+    "orders": "ଅର୍ଡର",
+    "tables": "ଟେବୁଲ୍",
+    "kitchen": "ରୋଷେଇ ଘର",
+    "inventory": "ସାମଗ୍ରୀ",
+    "reservations": "ସଂରକ୍ଷଣ",
+    "coupons": "କୁପନ୍",
+    "staff": "କର୍ମଚାରୀ",
+    "feedback": "ମତାମତ",
+    "exports": "ରପ୍ତାନି"
+  },
+  "common": {
+    "name": "ନାମ",
+    "email": "ଇମେଲ୍",
+    "phone": "ଫୋନ୍",
+    "role": "ଭୂମିକା",
+    "save": "ସେଭ୍ କରନ୍ତୁ",
+    "cancel": "ବାତିଲ୍",
+    "edit": "ସମ୍ପାଦନା",
+    "delete": "ଡିଲିଟ୍",
+    "actions": "କାର୍ଯ୍ୟ",
+    "loading": "ଲୋଡ୍ ହେଉଛି...",
+    "noData": "କୌଣସି ତଥ୍ୟ ନାହିଁ",
+    "search": "ଖୋଜନ୍ତୁ",
+    "filter": "ଫିଲ୍ଟର୍",
+    "status": "ସ୍ଥିତି",
+    "submit": "ଦାଖଲ କରନ୍ତୁ"
+  },
+  "menu": {
+    "addItem": "ଆଇଟମ୍ ଯୋଡନ୍ତୁ",
+    "editItem": "ଆଇଟମ୍ ସମ୍ପାଦନା",
+    "description": "ବିବରଣୀ",
+    "price": "ମୂଲ୍ୟ",
+    "category": "ଶ୍ରେଣୀ",
+    "available": "ଉପಲବ୍ଧ",
+    "unavailable": "ଉପಲବ୍ଧ ନାହିଁ"
+  },
+  "order": {
+    "placeOrder": "ଅର୍ଡର ଦିଅନ୍ତୁ",
+    "myOrders": "ମୋର ଅର୍ଡର",
+    "cancelOrder": "ଅର୍ଡର ବାତିଲ୍",
+    "cancelConfirm": "ଆପଣ ନିଶ୍ଚିତ କି ଏହି ଅର୍ଡର ବାତିଲ୍ କରିବାକୁ ଚାହୁଁଛନ୍ତି?",
+    "payNow": "ଏବେ ଦେୟ ଦିଅନ୍ତୁ",
+    "downloadInvoice": "ବିଲ୍ ଡାଉନଲୋଡ୍",
+    "leaveFeedback": "ମତାମତ ଦିଅନ୍ତୁ",
+    "applyCoupon": "କୁପନ୍ ଲଗାନ୍ତୁ",
+    "specialInstructions": "ବିଶେଷ ନିର୍ଦ୍ଦେଶ",
+    "subtotal": "ଉପ-ମୋଟ",
+    "discount": "ରିହାତି",
+    "grandTotal": "ସର୍ବମୋଟ"
+  },
+  "table": {
+    "tableNumber": "ଟେବୁଲ୍ ନମ୍ବର",
+    "capacity": "ଧାରଣ କ୍ଷମତା",
+    "qrCode": "QR କୋଡ୍",
+    "scanToOrder": "ଅର୍ଡର ଦେବାକୁ ସ୍କାନ୍ କରନ୍ତୁ"
+  },
+  "analytics": {
+    "totalRevenue": "ମୋଟ ରାଜସ୍ୱ",
+    "todayRevenue": "ଆଜିର ରାଜସ୍ୱ",
+    "totalOrders": "ମୋଟ ଅର୍ଡର",
+    "todayOrders": "ଆଜିର ଅର୍ଡର",
+    "totalCustomers": "ମୋଟ ଗ୍ରାହକ",
+    "salesChart": "ବିକ୍ରି ଧାରା",
+    "popularItems": "ଲୋକପ୍ରିୟ ଆଇଟମ୍",
+    "revenueByCategory": "ଶ୍ରେଣୀ ଅନୁସାରେ ରାଜସ୍ୱ",
+    "week": "ସପ୍ତାହ",
+    "month": "ମାସ",
+    "year": "ବର୍ଷ"
+  },
+  "coupon": {
+    "code": "କୁପନ୍ କୋଡ୍",
+    "discountType": "ରିହାତି ପ୍ରକାର",
+    "discountValue": "ରିହାତି ମୂଲ୍ୟ",
+    "percentage": "ଶତକଡ଼ା",
+    "fixed": "ସ୍ଥିର ରାଶି",
+    "minOrder": "ନ୍ୟୂନତମ ଅର୍ଡର",
+    "maxDiscount": "ସର୍ବାଧିକ ରିହାତି",
+    "validFrom": "ଆରମ୍ଭ ତାରିଖ",
+    "validUntil": "ଶେଷ ତାରିଖ",
+    "usageLimit": "ବ୍ୟବହାର ସୀମା",
+    "apply": "ଲାଗୁ କରନ୍ତୁ",
+    "applied": "କୁପନ୍ ଲାଗୁ ହେଲା!"
+  },
+  "inventory": {
+    "currentStock": "ବର୍ତ୍ତମାନ ଷ୍ଟକ୍",
+    "minimumStock": "ନ୍ୟୂନତମ ଷ୍ଟକ୍",
+    "unit": "ଏକକ",
+    "supplier": "ଯୋଗାଣକାରୀ",
+    "restock": "ପୁନଃ ଷ୍ଟକ୍",
+    "lowStock": "କମ୍ ଷ୍ଟକ୍"
+  },
+  "reservation": {
+    "makeReservation": "ସଂରକ୍ଷଣ କରନ୍ତୁ",
+    "date": "ତାରିଖ",
+    "timeSlot": "ସମୟ ସ୍ଲଟ୍",
+    "partySize": "ବ୍ୟକ୍ତି ସଂଖ୍ୟା",
+    "specialRequests": "ବିଶେଷ ଅନୁରୋଧ"
+  },
+  "staff": {
+    "addStaff": "କର୍ମଚାରୀ ଯୋଡନ୍ତୁ",
+    "salary": "ଦରମା",
+    "clockIn": "ଉପସ୍ଥିତି",
+    "clockOut": "ପ୍ରସ୍ଥାନ",
+    "shifts": "ଶିଫ୍ଟ"
+  },
+  "feedback": {
+    "rateOrder": "ଆପଣଙ୍କ ଅର୍ଡରକୁ ରେଟ୍ କରନ୍ତୁ",
+    "rateItem": "ଆଇଟମ୍ ରେଟ୍ କରନ୍ତୁ",
+    "comment": "ଆପଣଙ୍କ ମତାମତ ଲେଖନ୍ତୁ...",
+    "submit": "ମତାମତ ଦାଖଲ",
+    "allFeedback": "ସମସ୍ତ ମତାମତ"
+  }
+}

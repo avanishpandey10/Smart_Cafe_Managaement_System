@@ -1,0 +1,119 @@
+{
+  "nav": {
+    "login": "लॉगिन",
+    "logout": "लॉगआउट",
+    "dashboard": "डैशबोर्ड",
+    "menu": "मेनू",
+    "orders": "ऑर्डर",
+    "tables": "टेबल",
+    "kitchen": "रसोई",
+    "inventory": "इन्वेंटरी",
+    "reservations": "आरक्षण",
+    "coupons": "कूपन",
+    "staff": "कर्मचारी",
+    "feedback": "प्रतिक्रिया",
+    "exports": "निर्यात"
+  },
+  "common": {
+    "name": "नाम",
+    "email": "ईमेल",
+    "phone": "फ़ोन",
+    "role": "भूमिका",
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "edit": "संपादित करें",
+    "delete": "हटाएँ",
+    "actions": "कार्रवाई",
+    "loading": "लोड हो रहा है...",
+    "noData": "कोई डेटा नहीं मिला",
+    "search": "खोजें",
+    "filter": "फ़िल्टर",
+    "status": "स्थिति",
+    "submit": "जमा करें"
+  },
+  "menu": {
+    "addItem": "आइटम जोड़ें",
+    "editItem": "आइटम संपादित करें",
+    "description": "विवरण",
+    "price": "कीमत",
+    "category": "श्रेणी",
+    "available": "उपलब्ध",
+    "unavailable": "अनुपलब्ध"
+  },
+  "order": {
+    "placeOrder": "ऑर्डर दें",
+    "myOrders": "मेरे ऑर्डर",
+    "cancelOrder": "ऑर्डर रद्द करें",
+    "cancelConfirm": "क्या आप वाकई इस ऑर्डर को रद्द करना चाहते हैं?",
+    "payNow": "अभी भुगतान करें",
+    "downloadInvoice": "बिल डाउनलोड करें",
+    "leaveFeedback": "प्रतिक्रिया दें",
+    "applyCoupon": "कूपन लगाएँ",
+    "specialInstructions": "विशेष निर्देश",
+    "subtotal": "उप-योग",
+    "discount": "छूट",
+    "grandTotal": "कुल योग"
+  },
+  "table": {
+    "tableNumber": "टेबल नंबर",
+    "capacity": "क्षमता",
+    "qrCode": "QR कोड",
+    "scanToOrder": "ऑर्डर देने के लिए स्कैन करें"
+  },
+  "analytics": {
+    "totalRevenue": "कुल राजस्व",
+    "todayRevenue": "आज का राजस्व",
+    "totalOrders": "कुल ऑर्डर",
+    "todayOrders": "आज के ऑर्डर",
+    "totalCustomers": "कुल ग्राहक",
+    "salesChart": "बिक्री रुझान",
+    "popularItems": "लोकप्रिय आइटम",
+    "revenueByCategory": "श्रेणी अनुसार राजस्व",
+    "week": "सप्ताह",
+    "month": "महीना",
+    "year": "वर्ष"
+  },
+  "coupon": {
+    "code": "कूपन कोड",
+    "discountType": "छूट प्रकार",
+    "discountValue": "छूट मूल्य",
+    "percentage": "प्रतिशत",
+    "fixed": "निश्चित राशि",
+    "minOrder": "न्यूनतम ऑर्डर",
+    "maxDiscount": "अधिकतम छूट",
+    "validFrom": "से मान्य",
+    "validUntil": "तक मान्य",
+    "usageLimit": "उपयोग सीमा",
+    "apply": "लागू करें",
+    "applied": "कूपन लागू हुआ!"
+  },
+  "inventory": {
+    "currentStock": "मौजूदा स्टॉक",
+    "minimumStock": "न्यूनतम स्टॉक",
+    "unit": "इकाई",
+    "supplier": "आपूर्तिकर्ता",
+    "restock": "पुनः स्टॉक",
+    "lowStock": "कम स्टॉक"
+  },
+  "reservation": {
+    "makeReservation": "आरक्षण करें",
+    "date": "तारीख",
+    "timeSlot": "समय स्लॉट",
+    "partySize": "लोगों की संख्या",
+    "specialRequests": "विशेष अनुरोध"
+  },
+  "staff": {
+    "addStaff": "कर्मचारी जोड़ें",
+    "salary": "वेतन",
+    "clockIn": "हाज़िरी दें",
+    "clockOut": "हाज़िरी बंद",
+    "shifts": "शिफ्ट"
+  },
+  "feedback": {
+    "rateOrder": "अपने ऑर्डर को रेट करें",
+    "rateItem": "आइटम को रेट करें",
+    "comment": "अपनी प्रतिक्रिया लिखें...",
+    "submit": "प्रतिक्रिया जमा करें",
+    "allFeedback": "सभी प्रतिक्रियाएँ"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "nav": {
+    "login": "Login",
+    "logout": "Logout",
+    "dashboard": "Dashboard",
+    "menu": "Menu",
+    "orders": "Orders",
+    "tables": "Tables",
+    "kitchen": "Kitchen",
+    "inventory": "Inventory",
+    "reservations": "Reservations",
+    "coupons": "Coupons",
+    "staff": "Staff",
+    "feedback": "Feedback",
+    "exports": "Exports"
+  },
+  "common": {
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "role": "Role",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "actions": "Actions",
+    "loading": "Loading...",
+    "noData": "No data found",
+    "search": "Search",
+    "filter": "Filter",
+    "status": "Status",
+    "submit": "Submit"
+  },
+  "menu": {
+    "addItem": "Add Item",
+    "editItem": "Edit Item",
+    "description": "Description",
+    "price": "Price",
+    "category": "Category",
+    "available": "Available",
+    "unavailable": "Unavailable"
+  },
+  "order": {
+    "placeOrder": "Place Order",
+    "myOrders": "My Orders",
+    "cancelOrder": "Cancel Order",
+    "cancelConfirm": "Are you sure you want to cancel this order?",
+    "payNow": "Pay Now",
+    "downloadInvoice": "Download Invoice",
+    "leaveFeedback": "Leave Feedback",
+    "applyCoupon": "Apply Coupon",
+    "specialInstructions": "Special Instructions",
+    "subtotal": "Subtotal",
+    "discount": "Discount",
+    "grandTotal": "Grand Total"
+  },
+  "table": {
+    "tableNumber": "Table Number",
+    "capacity": "Capacity",
+    "qrCode": "QR Code",
+    "scanToOrder": "Scan to place your order"
+  },
+  "analytics": {
+    "totalRevenue": "Total Revenue",
+    "todayRevenue": "Today's Revenue",
+    "totalOrders": "Total Orders",
+    "todayOrders": "Today's Orders",
+    "totalCustomers": "Total Customers",
+    "salesChart": "Sales Trend",
+    "popularItems": "Popular Items",
+    "revenueByCategory": "Revenue by Category",
+    "week": "Week",
+    "month": "Month",
+    "year": "Year"
+  },
+  "coupon": {
+    "code": "Coupon Code",
+    "discountType": "Discount Type",
+    "discountValue": "Discount Value",
+    "percentage": "Percentage",
+    "fixed": "Fixed Amount",
+    "minOrder": "Min Order",
+    "maxDiscount": "Max Discount",
+    "validFrom": "Valid From",
+    "validUntil": "Valid Until",
+    "usageLimit": "Usage Limit",
+    "apply": "Apply",
+    "applied": "Coupon applied!"
+  },
+  "inventory": {
+    "currentStock": "Current Stock",
+    "minimumStock": "Minimum Stock",
+    "unit": "Unit",
+    "supplier": "Supplier",
+    "restock": "Restock",
+    "lowStock": "Low Stock"
+  },
+  "reservation": {
+    "makeReservation": "Make Reservation",
+    "date": "Date",
+    "timeSlot": "Time Slot",
+    "partySize": "Party Size",
+    "specialRequests": "Special Requests"
+  },
+  "staff": {
+    "addStaff": "Add Staff",
+    "salary": "Salary",
+    "clockIn": "Clock In",
+    "clockOut": "Clock Out",
+    "shifts": "Shifts"
+  },
+  "feedback": {
+    "rateOrder": "Rate Your Order",
+    "rateItem": "Rate Individual Items",
+    "comment": "Write your feedback...",
+    "submit": "Submit Feedback",
+    "allFeedback": "All Feedback"
+  }
+}
